@@ -18,7 +18,7 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 41 100% 70%;
+    --primary: 45 85% 55%;
     --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 16%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 0 0% 20%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 41 88% 60%;
+    --accent: 45 80% 50%;
     --accent-foreground: 0 0% 8%;
 
     --destructive: 0 62.8% 30.6%;
@@ -35,25 +35,25 @@ All colors MUST be HSL.
 
     --border: 0 0% 24%;
     --input: 0 0% 20%;
-    --ring: 41 100% 70%;
+    --ring: 45 85% 55%;
 
     /* Custom luxury tokens */
-    --gold-primary: 41 100% 70%;
-    --gold-secondary: 41 88% 60%;
-    --gold-accent: 38 92% 50%;
+    --gold-primary: 45 85% 55%;
+    --gold-secondary: 45 80% 50%;
+    --gold-accent: 45 75% 45%;
     --charcoal: 0 0% 12%;
     --charcoal-light: 0 0% 16%;
     --text-gold: 0 0% 98%;
     --text-muted: 0 0% 65%;
     
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, hsl(41, 100%, 70%), hsl(38, 92%, 50%));
+    --gradient-gold: linear-gradient(135deg, hsl(45, 85%, 55%), hsl(45, 75%, 45%));
     --gradient-charcoal: linear-gradient(135deg, hsl(0, 0%, 8%), hsl(0, 0%, 12%));
-    --gradient-overlay: linear-gradient(135deg, hsla(41, 100%, 70%, 0.08), hsla(38, 92%, 50%, 0.12));
+    --gradient-overlay: linear-gradient(135deg, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.6));
     
     /* Shadows */
-    --shadow-luxury: 0 20px 50px -12px hsla(41, 100%, 70%, 0.25);
-    --shadow-gold-glow: 0 0 30px hsla(41, 100%, 70%, 0.3);
+    --shadow-luxury: 0 20px 50px -12px hsla(45, 85%, 55%, 0.25);
+    --shadow-gold-glow: 0 0 30px hsla(45, 85%, 55%, 0.3);
     --shadow-card: 0 8px 32px hsla(0, 0%, 0%, 0.5);
 
     --radius: 0.5rem;
