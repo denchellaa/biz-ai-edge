@@ -39,7 +39,15 @@ const Hero = () => {
               </DialogContent>
             </Dialog>
             
-            <Button variant="luxury-outline" size="lg" className="px-8 py-6 text-lg">
+            <Button 
+              variant="luxury-outline" 
+              size="lg" 
+              className="px-8 py-6 text-lg"
+              onClick={() => {
+                const benefitsSection = document.getElementById('ai-benefits');
+                benefitsSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Узнать больше
             </Button>
           </div>

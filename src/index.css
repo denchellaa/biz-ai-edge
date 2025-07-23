@@ -10,50 +10,50 @@ All colors MUST be HSL.
 :root {
     /* Luxury black & gold color palette */
     --background: 0 0% 8%;
-    --foreground: 45 100% 90%;
+    --foreground: 0 0% 98%;
 
     --card: 0 0% 12%;
-    --card-foreground: 45 100% 90%;
+    --card-foreground: 0 0% 98%;
 
     --popover: 0 0% 10%;
-    --popover-foreground: 45 100% 90%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 45 93% 65%;
+    --primary: 41 100% 70%;
     --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 16%;
-    --secondary-foreground: 45 100% 90%;
+    --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 45 20% 70%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 45 85% 55%;
+    --accent: 41 88% 60%;
     --accent-foreground: 0 0% 8%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 45 100% 90%;
+    --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 24%;
     --input: 0 0% 20%;
-    --ring: 45 93% 65%;
+    --ring: 41 100% 70%;
 
     /* Custom luxury tokens */
-    --gold-primary: 45 93% 65%;
-    --gold-secondary: 45 85% 55%;
-    --gold-accent: 43 96% 56%;
+    --gold-primary: 41 100% 70%;
+    --gold-secondary: 41 88% 60%;
+    --gold-accent: 38 92% 50%;
     --charcoal: 0 0% 12%;
     --charcoal-light: 0 0% 16%;
-    --text-gold: 45 100% 90%;
-    --text-muted: 45 20% 70%;
+    --text-gold: 0 0% 98%;
+    --text-muted: 0 0% 65%;
     
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, hsl(45, 93%, 65%), hsl(43, 96%, 56%));
+    --gradient-gold: linear-gradient(135deg, hsl(41, 100%, 70%), hsl(38, 92%, 50%));
     --gradient-charcoal: linear-gradient(135deg, hsl(0, 0%, 8%), hsl(0, 0%, 12%));
-    --gradient-overlay: linear-gradient(135deg, hsla(45, 93%, 65%, 0.1), hsla(43, 96%, 56%, 0.2));
+    --gradient-overlay: linear-gradient(135deg, hsla(41, 100%, 70%, 0.08), hsla(38, 92%, 50%, 0.12));
     
     /* Shadows */
-    --shadow-luxury: 0 20px 50px -12px hsla(45, 93%, 65%, 0.25);
-    --shadow-gold-glow: 0 0 30px hsla(45, 93%, 65%, 0.3);
+    --shadow-luxury: 0 20px 50px -12px hsla(41, 100%, 70%, 0.25);
+    --shadow-gold-glow: 0 0 30px hsla(41, 100%, 70%, 0.3);
     --shadow-card: 0 8px 32px hsla(0, 0%, 0%, 0.5);
 
     --radius: 0.5rem;

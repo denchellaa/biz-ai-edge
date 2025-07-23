@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-2xl font-bold bg-gradient-gold bg-clip-text text-transparent mb-4">
-              AI Business
+              AI2B
             </h3>
             <p className="text-muted-foreground mb-4">
               Обучение искусственному интеллекту для современного бизнеса. 
@@ -59,7 +59,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 AI Business. Все права защищены.
+            © 2025 AI2B. Все права защищены.
           </p>
         </div>
       </div>
