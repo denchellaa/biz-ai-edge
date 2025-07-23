@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Luxury color system
+				gold: {
+					DEFAULT: 'hsl(var(--gold-primary))',
+					secondary: 'hsl(var(--gold-secondary))',
+					accent: 'hsl(var(--gold-accent))'
+				},
+				charcoal: {
+					DEFAULT: 'hsl(var(--charcoal))',
+					light: 'hsl(var(--charcoal-light))'
 				}
+			},
+			backgroundImage: {
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-charcoal': 'var(--gradient-charcoal)',
+				'gradient-overlay': 'var(--gradient-overlay)'
+			},
+			boxShadow: {
+				'luxury': 'var(--shadow-luxury)',
+				'gold-glow': 'var(--shadow-gold-glow)',
+				'card-luxury': 'var(--shadow-card)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
