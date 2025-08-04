@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Phone, MessageCircle, Send } from "lucide-react";
-import ContactForm from "./ContactForm";
 
 const contactMethods = [
   {
@@ -76,30 +74,6 @@ const Contacts = () => {
           ))}
         </div>
         
-        <div className="max-w-2xl mx-auto">
-          <Card className="bg-gradient-overlay border-border">
-            <CardContent className="p-8 text-center">
-              <h3 className="text-2xl font-bold mb-4 text-foreground">
-                Или оставьте заявку
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                Заполните форму, и мы свяжемся с вами в течение часа 
-                для обсуждения вашего проекта
-              </p>
-              
-              <Dialog>
-                <DialogTrigger asChild>
-                  <Button variant="luxury" size="lg" className="px-8">
-                    Оставить заявку
-                  </Button>
-                </DialogTrigger>
-                <DialogContent className="bg-card border-border">
-                  <ContactForm />
-                </DialogContent>
-              </Dialog>
-            </CardContent>
-          </Card>
-        </div>
         
         <div className="mt-16 text-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">

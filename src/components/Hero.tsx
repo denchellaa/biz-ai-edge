@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import ContactForm from "./ContactForm";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -28,16 +26,17 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Dialog>
-              <DialogTrigger asChild>
-                <Button variant="luxury" size="lg" className="px-8 py-6 text-lg">
-                  Оставить заявку
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="bg-card border-border">
-                <ContactForm />
-              </DialogContent>
-            </Dialog>
+            <Button 
+              variant="luxury" 
+              size="lg" 
+              className="px-8 py-6 text-lg"
+              onClick={() => {
+                const contactsSection = document.getElementById('contacts');
+                contactsSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
+              Связаться с нами
+            </Button>
             
             <Button 
               variant="luxury-outline" 
