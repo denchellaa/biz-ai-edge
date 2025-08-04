@@ -29,7 +29,7 @@ const Hero = () => {
             <Button 
               variant="luxury" 
               size="lg" 
-              className="px-8 py-6 text-lg w-60"
+              className="px-8 py-6 text-lg w-60 h-16"
               onClick={() => {
                 const contactsSection = document.getElementById('contacts');
                 contactsSection?.scrollIntoView({ behavior: 'smooth' });
@@ -41,7 +41,7 @@ const Hero = () => {
             <Button 
               variant="luxury-outline" 
               size="lg" 
-              className="px-8 py-6 text-lg w-60"
+              className="px-8 py-6 text-lg w-60 h-16"
               onClick={() => {
                 const benefitsSection = document.getElementById('ai-benefits');
                 benefitsSection?.scrollIntoView({ behavior: 'smooth' });
